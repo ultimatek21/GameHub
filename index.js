@@ -2,7 +2,7 @@ const Commando = require("discord.js-commando");
 const Discord = require("discord.js");
 const bot = new Commando.Client()
 
-const TOKEN = "NDkzNDA1MDU1OTAzMzM0NDEw.DoqNiw.JRcvoGucIkEpGZ9hgKnbajaEkrk"
+const TOKEN = "process.env.token"
 console.log(bot.registry.registerGroup)
 
 
